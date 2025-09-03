@@ -27,8 +27,9 @@
 	--bg-footer: #203baf;
 
 	--fg-header: #bbecbf;
-	--fg-header-nav: #1f594a; /* dunkelgruen */
+	--fg-header-nav: #c1e7dd; 
 	--fg-header-logo: #bbecbf;
+	--fg-header-logo-scrolled: #1f594a;
 	--fg-hero: #ffffff;
 	--fg-hero-heading: #ffffff;
 	--fg-body: #1f594a; /* dunkelgruen als Standard-Textfarbe */
@@ -52,34 +53,35 @@
 [data-theme="erdung-hoffnung"] {
 	--bg-header: #E0E7E9;
 	--bg-header-nav: #D1D8DB;
-	--bg-hero: #F5F5F5;
-	--bg-body: #F0F0EE;
-	--bg-section-1: #FFFFFF;
-	--bg-section-2: #F0F0EE;
-	--bg-section-3: #FFFFFF;
-	--bg-section-splitter-1: #ADC8C6;
-	--bg-section-splitter-2: #D1D8DB;
-	--bg-section-spliiter-3: #ADC8C6;
+	--bg-hero: #645768;
+	--bg-body: #e3a790;
+	--bg-section-1: #FFE9D5;
+    --bg-section-2: #e9c2f5;
+	--bg-section-3: #FFE9D5;
+	--bg-section-splitter-1: #645768;
+	--bg-section-splitter-2: #ffffff;
+	--bg-section-splitter-3: #ffffff;
 	--bg-footer: #3F5B5B;
 
 	--fg-header: #3F5B5B;
-	--fg-header-nav: #5A7F7F;
-	--fg-header-logo: #3F5B5B;
-	--fg-hero: #3F5B5B;
-	--fg-hero-heading: #2C4242;
+	--fg-header-nav: #c4e0e0;
+	--fg-header-logo: #c7dada;
+	--fg-header-logo-scrolled: #1f594a;
+	--fg-hero: #f7e7d8;
+	--fg-hero-heading: #dcecec;
 	--fg-body: #3F5B5B;
 	--fg-section-1: #4A4A4A;
 	--fg-section-2: #4A4A4A;
 	--fg-section-3: #4A4A4A;
-	--fg-section-splitter-1: #FFFFFF;
+	--fg-section-splitter-1: var(--bg-section-1);
 	--fg-section-splitter-1-heading: #FFFFFF;
-	--fg-section-splitter-2: #3F5B5B;
+	--fg-section-splitter-2: var(--bg-section-2);
 	--fg-section-splitter-2-heading: #3F5B5B;
-	--fg-section-spliiter-3: #FFFFFF;
+	--fg-section-splitter-3: var(--bg-section-3);
 	--fg-section-splitter-3-heading: #FFFFFF;
 	--fg-footer: #E0E7E9;
 
-	--bg-button: #3F5B5B; /* tiefer Petrol-Kontrast */
+	--bg-button: #cb59ee; /* tiefer Petrol-Kontrast */
 	--fg-button: #FFFFFF;
 }
 
@@ -87,26 +89,26 @@
 [data-theme="klarheit-tiefe"] {
 	--bg-header: #EBF2F7;
 	--bg-header-nav: #DDE5EC;
-	--bg-hero: #F7F9FA;
-	--bg-body: #F0F4F7;
+	--bg-hero: #0049557A;
+	--bg-body: #8DB8D9;
 	--bg-section-1: #FFFFFF;
-	--bg-section-2: #F0F4F7;
+	--bg-section-2: #B7CFE3;
 	--bg-section-3: #FFFFFF;
-	--bg-section-splitter-1: #A7C5D9;
-	--bg-section-splitter-2: #DDE5EC;
-	--bg-section-spliiter-3: #A7C5D9;
+	--bg-section-splitter-1: #646B71;
+	--bg-section-splitter-2: #688096;
+	--bg-section-splitter-3: #354753;
 	--bg-footer: #2F4F6F;
 
 	--fg-header: #2F4F6F;
-	--fg-header-nav: #4B6E8C;
-	--fg-header-logo: #2F4F6F;
-	--fg-hero: #2F4F6F;
-	--fg-hero-heading: #1F3850;
+	--fg-header-nav: #c4e0e0;
+	--fg-header-logo: #c7dada;
+	--fg-hero: #e9e9f8;
+	--fg-hero-heading: #ffffff;
 	--fg-body: #2F4F6F;
 	--fg-section-1: #404040;
 	--fg-section-2: #404040;
 	--fg-section-3: #404040;
-	--fg-section-splitter-1: #FFFFFF;
+	--fg-section-splitter-1: #C9E4EA;
 	--fg-section-splitter-1-heading: #FFFFFF;
 	--fg-section-splitter-2: #2F4F6F;
 	--fg-section-splitter-2-heading: #2F4F6F;
@@ -122,34 +124,34 @@
 [data-theme="waerme-ermutigung"] {
 	--bg-header: #F4EDE6;
 	--bg-header-nav: #E0D7CD;
-	--bg-hero: #FCFAFA;
-	--bg-body: #F8F5F2;
+	--bg-hero: #122F02;
+	--bg-body: #F0EBDCBD;
 	--bg-section-1: #FFFFFF;
-	--bg-section-2: #F8F5F2;
+	--bg-section-2: #DAF2E3;
 	--bg-section-3: #FFFFFF;
-	--bg-section-splitter-1: #B0C4B4;
+	--bg-section-splitter-1: #4b5e4e;
 	--bg-section-splitter-2: #E0D7CD;
-	--bg-section-spliiter-3: #B0C4B4;
+	--bg-section-splitter-3: #B0C4B4;
 	--bg-footer: #5A705E;
 
 	--fg-header: #5A705E;
-	--fg-header-nav: #788A7C;
-	--fg-header-logo: #5A705E;
-	--fg-hero: #5A705E;
-	--fg-hero-heading: #425546;
+	--fg-header-nav: #c4e0e0;
+	--fg-header-logo: #c7dada;
+	--fg-hero: #dbebde;
+	--fg-hero-heading: #ffffff;
 	--fg-body: #5A705E;
 	--fg-section-1: #505050;
 	--fg-section-2: #505050;
 	--fg-section-3: #505050;
-	--fg-section-splitter-1: #FFFFFF;
+	--fg-section-splitter-1: #D7D2AE;
 	--fg-section-splitter-1-heading: #FFFFFF;
 	--fg-section-splitter-2: #5A705E;
 	--fg-section-splitter-2-heading: #5A705E;
-	--fg-section-spliiter-3: #FFFFFF;
+	--fg-section-splitter-3: #FFFFFF;
 	--fg-section-splitter-3-heading: #FFFFFF;
 	--fg-footer: #F4EDE6;
 
-	--bg-button: #5A705E;
+	--bg-button: #30a297;
 	--fg-button: #FFFFFF;
 }
 
@@ -160,62 +162,65 @@
 	--bg-hero: #1F1F1F;
 	--bg-body: #7D2727;
 	--bg-section-1: #252525;
-	--bg-section-2: #1F1F1F;
+	--bg-section-2: #534949;;
 	--bg-section-3: #252525;
-	--bg-section-splitter-1: #D4B275;
+	--bg-section-splitter-1: #E9D3FFB8;
 	--bg-section-splitter-2: #2E2E2E;
-	--bg-section-spliiter-3: #D4B275;
+	--bg-section-splitter-3: #D4B275;
 	--bg-footer: #1A1A1A;
 
 	--fg-header: #EAEAEA;
 	--fg-header-nav: #C0C0C0;
 	--fg-header-logo: #EAEAEA;
+	--fg-header-logo-scrolled: #ffdddf;
 	--fg-hero: #C0C0C0;
 	--fg-hero-heading: #FFFFFF;
 	--fg-body: #EAEAEA;
 	--fg-section-1: #EAEAEA;
 	--fg-section-2: #EAEAEA;
 	--fg-section-3: #EAEAEA;
-	--fg-section-splitter-1: #1F1F1F;
+	--fg-section-splitter-1: #302737;
 	--fg-section-splitter-1-heading: #1F1F1F;
 	--fg-section-splitter-2: #EAEAEA;
 	--fg-section-splitter-2-heading: #FFFFFF;
-	--fg-section-spliiter-3: #1F1F1F;
+	--fg-section-splitter-3: #1F1F1F;
 	--fg-section-splitter-3-heading: #1F1F1F;
 	--fg-footer: #C0C0C0;
 
-	--bg-button: #D4B275; /* warmes Gold als Akzent */
-	--fg-button: #1F1F1F;
+	--bg-button: #a03333; /* warmes Gold als Akzent */
+	--fg-button: #ffffff;
 }
 
 /* Vertrauen & Tiefe */
 [data-theme="vertrauen-tiefe"] {
 	--bg-header: #243647;
 	--bg-header-nav: #1D2D3C;
-	--bg-hero: #1D2D3C;
+	--bg-hero: #1d2d3c33;
 	--bg-body: #274E73;
 	--bg-section-1: #243647;
 	--bg-section-2: #1D2D3C;
 	--bg-section-3: #243647;
 	--bg-section-splitter-1: #76A2B3;
 	--bg-section-splitter-2: #2E4256;
-	--bg-section-spliiter-3: #76A2B3;
+	--bg-section-splitter-3: #76A2B3;
 	--bg-footer: #16222d;
 
 	--fg-header: #E8E8E8;
 	--fg-header-nav: #D0D0D0;
 	--fg-header-logo: #E8E8E8;
+	--fg-header-logo-scrolled: #e4ddff;
+	--fg-header-logo-scrolled: #D0D0D0;
 	--fg-hero: #D0D0D0;
 	--fg-hero-heading: #FFFFFF;
 	--fg-body: #E8E8E8;
 	--fg-section-1: #E8E8E8;
 	--fg-section-2: #E8E8E8;
 	--fg-section-3: #E8E8E8;
-	--fg-section-splitter-1: #1D2D3C;
+	--fg-section-splitter-1: #1C1A269E;
 	--fg-section-splitter-1-heading: #1D2D3C;
 	--fg-section-splitter-2: #E8E8E8;
 	--fg-section-splitter-2-heading: #FFFFFF;
-	--fg-section-spliiter-3: #1D2D3C;
+	--fg-section-splitter-3: #1D2D3C;
 	--fg-section-splitter-3-heading: #1D2D3C;
 	--fg-footer: #D0D0D0;
 
@@ -275,3 +280,9 @@
 
 /* Wave reversal helper */
 .wave-reversed { transform: scaleX(-1); }
+.bg-header{
+	background-color: transparent;
+}
+.bg-header-nav .text-fg-header-logo, .bg-header-nav nav a {
+	color: var(--fg-header-logo-scrolled);
+}

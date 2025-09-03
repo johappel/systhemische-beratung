@@ -43,7 +43,7 @@ const Approach: React.FC = () => {
             Meine Werkzeuge sind keine komplizierten Techniken, sondern Einladungen, die Dinge anders zu betrachten.
           </p>
         </div>
-  <div className="rounded-lg p-8 md:flex md:space-x-8 bg-section-splitter-1 text-fg-section-splitter-1">
+  <div className="rounded-lg p-8 md:flex md:space-x-8 bg-section-splitter-1 text-fg-section-splitter-1 m-auto max-w-[600px]">
           <div className="flex justify-center md:flex-col md:justify-start space-x-4 md:space-x-0 md:space-y-4 mb-8 md:mb-0">
             {tools.map((tool) => (
               <button
