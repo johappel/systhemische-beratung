@@ -20,17 +20,17 @@ const About: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-3 gap-8">
             <Card 
-                imgSrc="/images/jugendarbeit.jpeg"
+                imgSrc="images/jugendarbeit.jpeg"
                 title="Jugendarbeit"
                 quote="Systemisch denken heißt: Nicht 'warum', sondern 'wozu' fragen."
             />
             <Card 
-                imgSrc="/images/schulseelsorgerin.jpeg"
+                imgSrc="images/schulseelsorgerin.jpeg"
                 title="Schulseelsorge"
                 quote="Meine Erfahrung: In jedem Konflikt steckt ein verborgenes Geschenk."
             />
             <Card 
-                imgSrc="/images/referentin.jpeg"
+                imgSrc="images/referentin.jpeg"
                 title="Seminargespräch"
                 quote="Wir schauen auf Muster – nicht auf Schuld. Niemand bleibt allein im Regen."
             />

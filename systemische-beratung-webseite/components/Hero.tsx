@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{ backgroundImage: `url('/images/matruschka.jpg')` }}>
+    <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{ backgroundImage: `url('images/matruschka.jpg')` }}>
       <div className="absolute inset-0 bg-dunkelblau opacity-40"></div>
       <div className="relative z-10 p-6">
         <h1 className="font-heading text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg">
