@@ -26,7 +26,7 @@ const Process: React.FC = () => {
                     <ProcessStepIcon step={index + 1} />
                 </div>
                 <h3 className="font-heading text-xl font-bold mt-4 mb-2">{step.title}</h3>
-                <p className="text-dunkelgruen/80">{step.description}</p>
+                <p className="opacity-80 text-fg-section-1">{step.description}</p>
               </div>
             ))}
           </div>

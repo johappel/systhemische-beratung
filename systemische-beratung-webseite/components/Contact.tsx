@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
           Vermutlich passt es: Freitags biete ich Termine bis 20 Uhr an. Schicken Sie mir eine Nachricht und wir finden einen Weg.
         </p>
         <button
-          className="font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transform hover:scale-105 transition-all duration-300 shadow-lg bg-fg-footer text-bg-footer"
+          className="font-bold py-3 px-8 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg bg-button text-fg-button hover:brightness-110"
           onClick={() => window.location.href = 'mailto:beispiel@email.de'}
         >
           Lassen Sie uns reden

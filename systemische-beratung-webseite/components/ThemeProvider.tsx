@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
-export type ThemeKey = 'default' | 'erdung-hoffnung' | 'klarheit-tiefe' | 'waerme-ermutigung';
+export type ThemeKey = 'default' | 'erdung-hoffnung' | 'klarheit-tiefe' | 'waerme-ermutigung' | 'fokus-stille' | 'vertrauen-tiefe';
 
 interface ThemeContextValue {
   theme: ThemeKey;
@@ -10,7 +10,7 @@ interface ThemeContextValue {
 
 const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 
-const THEME_ORDER: ThemeKey[] = ['default', 'erdung-hoffnung', 'klarheit-tiefe', 'waerme-ermutigung'];
+const THEME_ORDER: ThemeKey[] = ['default', 'erdung-hoffnung', 'klarheit-tiefe', 'waerme-ermutigung', 'fokus-stille', 'vertrauen-tiefe'];
 const STORAGE_KEY = 'color-theme';
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -60,6 +60,8 @@ export const ThemeSwitcher: React.FC = () => {
     'erdung-hoffnung': 'Erdung & Hoffnung',
     'klarheit-tiefe': 'Klarheit & Tiefe',
     'waerme-ermutigung': 'Wärme & Ermutigung',
+    'fokus-stille': 'Fokus & Stille',
+    'vertrauen-tiefe': 'Vertrauen & Tiefe',
   };
   return (
     <button

@@ -17,6 +17,7 @@
 	--bg-header: rgba(0,0,0,0.4);
 	--bg-header-nav: #bbecbf; /* hellgruen */
 	--bg-hero: #203baf; /* dunkelblau fallback hinter Overlay */
+	--bg-body: #bbecbf; /* bisheriger Body-Hintergrund */
 	--bg-section-1: #e8c6e8; /* helllila */
 	--bg-section-2: #bbecbf; /* hellgruen */
 	--bg-section-3: #203baf; /* dunkelblau */
@@ -30,6 +31,7 @@
 	--fg-header-logo: #bbecbf;
 	--fg-hero: #ffffff;
 	--fg-hero-heading: #ffffff;
+	--fg-body: #1f594a; /* dunkelgruen als Standard-Textfarbe */
 	--fg-section-1: #1f594a;
 	--fg-section-2: #1f594a;
 	--fg-section-3: #bbecbf;
@@ -40,6 +42,10 @@
 	--fg-section-spliiter-3: #bbecbf;
 	--fg-section-splitter-3-heading: #bbecbf;
 	--fg-footer: #e8c6e8;
+
+	/* Buttons (Akzent) */
+	--bg-button: #ff482f; /* bisher orange */
+	--fg-button: #ffffff;
 }
 
 /* Erdung & Hoffnung */
@@ -47,6 +53,7 @@
 	--bg-header: #E0E7E9;
 	--bg-header-nav: #D1D8DB;
 	--bg-hero: #F5F5F5;
+	--bg-body: #F0F0EE;
 	--bg-section-1: #FFFFFF;
 	--bg-section-2: #F0F0EE;
 	--bg-section-3: #FFFFFF;
@@ -60,6 +67,7 @@
 	--fg-header-logo: #3F5B5B;
 	--fg-hero: #3F5B5B;
 	--fg-hero-heading: #2C4242;
+	--fg-body: #3F5B5B;
 	--fg-section-1: #4A4A4A;
 	--fg-section-2: #4A4A4A;
 	--fg-section-3: #4A4A4A;
@@ -70,6 +78,9 @@
 	--fg-section-spliiter-3: #FFFFFF;
 	--fg-section-splitter-3-heading: #FFFFFF;
 	--fg-footer: #E0E7E9;
+
+	--bg-button: #3F5B5B; /* tiefer Petrol-Kontrast */
+	--fg-button: #FFFFFF;
 }
 
 /* Klarheit & Tiefe */
@@ -77,6 +88,7 @@
 	--bg-header: #EBF2F7;
 	--bg-header-nav: #DDE5EC;
 	--bg-hero: #F7F9FA;
+	--bg-body: #F0F4F7;
 	--bg-section-1: #FFFFFF;
 	--bg-section-2: #F0F4F7;
 	--bg-section-3: #FFFFFF;
@@ -90,6 +102,7 @@
 	--fg-header-logo: #2F4F6F;
 	--fg-hero: #2F4F6F;
 	--fg-hero-heading: #1F3850;
+	--fg-body: #2F4F6F;
 	--fg-section-1: #404040;
 	--fg-section-2: #404040;
 	--fg-section-3: #404040;
@@ -100,6 +113,9 @@
 	--fg-section-spliiter-3: #FFFFFF;
 	--fg-section-splitter-3-heading: #FFFFFF;
 	--fg-footer: #EBF2F7;
+
+	--bg-button: #2F4F6F;
+	--fg-button: #FFFFFF;
 }
 
 /* Wärme & Ermutigung */
@@ -107,6 +123,7 @@
 	--bg-header: #F4EDE6;
 	--bg-header-nav: #E0D7CD;
 	--bg-hero: #FCFAFA;
+	--bg-body: #F8F5F2;
 	--bg-section-1: #FFFFFF;
 	--bg-section-2: #F8F5F2;
 	--bg-section-3: #FFFFFF;
@@ -120,6 +137,7 @@
 	--fg-header-logo: #5A705E;
 	--fg-hero: #5A705E;
 	--fg-hero-heading: #425546;
+	--fg-body: #5A705E;
 	--fg-section-1: #505050;
 	--fg-section-2: #505050;
 	--fg-section-3: #505050;
@@ -130,6 +148,79 @@
 	--fg-section-spliiter-3: #FFFFFF;
 	--fg-section-splitter-3-heading: #FFFFFF;
 	--fg-footer: #F4EDE6;
+
+	--bg-button: #5A705E;
+	--fg-button: #FFFFFF;
+}
+
+/* Fokus & Stille */
+[data-theme="fokus-stille"] {
+	--bg-header: #2E2E2E;
+	--bg-header-nav: #252525;
+	--bg-hero: #1F1F1F;
+	--bg-body: #7D2727;
+	--bg-section-1: #252525;
+	--bg-section-2: #1F1F1F;
+	--bg-section-3: #252525;
+	--bg-section-splitter-1: #D4B275;
+	--bg-section-splitter-2: #2E2E2E;
+	--bg-section-spliiter-3: #D4B275;
+	--bg-footer: #1A1A1A;
+
+	--fg-header: #EAEAEA;
+	--fg-header-nav: #C0C0C0;
+	--fg-header-logo: #EAEAEA;
+	--fg-hero: #C0C0C0;
+	--fg-hero-heading: #FFFFFF;
+	--fg-body: #EAEAEA;
+	--fg-section-1: #EAEAEA;
+	--fg-section-2: #EAEAEA;
+	--fg-section-3: #EAEAEA;
+	--fg-section-splitter-1: #1F1F1F;
+	--fg-section-splitter-1-heading: #1F1F1F;
+	--fg-section-splitter-2: #EAEAEA;
+	--fg-section-splitter-2-heading: #FFFFFF;
+	--fg-section-spliiter-3: #1F1F1F;
+	--fg-section-splitter-3-heading: #1F1F1F;
+	--fg-footer: #C0C0C0;
+
+	--bg-button: #D4B275; /* warmes Gold als Akzent */
+	--fg-button: #1F1F1F;
+}
+
+/* Vertrauen & Tiefe */
+[data-theme="vertrauen-tiefe"] {
+	--bg-header: #243647;
+	--bg-header-nav: #1D2D3C;
+	--bg-hero: #1D2D3C;
+	--bg-body: #274E73;
+	--bg-section-1: #243647;
+	--bg-section-2: #1D2D3C;
+	--bg-section-3: #243647;
+	--bg-section-splitter-1: #76A2B3;
+	--bg-section-splitter-2: #2E4256;
+	--bg-section-spliiter-3: #76A2B3;
+	--bg-footer: #16222d;
+
+	--fg-header: #E8E8E8;
+	--fg-header-nav: #D0D0D0;
+	--fg-header-logo: #E8E8E8;
+	--fg-hero: #D0D0D0;
+	--fg-hero-heading: #FFFFFF;
+	--fg-body: #E8E8E8;
+	--fg-section-1: #E8E8E8;
+	--fg-section-2: #E8E8E8;
+	--fg-section-3: #E8E8E8;
+	--fg-section-splitter-1: #1D2D3C;
+	--fg-section-splitter-1-heading: #1D2D3C;
+	--fg-section-splitter-2: #E8E8E8;
+	--fg-section-splitter-2-heading: #FFFFFF;
+	--fg-section-spliiter-3: #1D2D3C;
+	--fg-section-splitter-3-heading: #1D2D3C;
+	--fg-footer: #D0D0D0;
+
+	--bg-button: #76A2B3; /* ruhiges Blaugrün als Akzent */
+	--fg-button: #1D2D3C;
 }
 
 /* Video fade helper used by Hero.tsx */
@@ -153,6 +244,7 @@
 .bg-section-splitter-2 { background-color: var(--bg-section-splitter-2); }
 .bg-section-spliiter-3 { background-color: var(--bg-section-spliiter-3); }
 .bg-footer { background-color: var(--bg-footer); }
+.bg-body { background-color: var(--bg-body); }
 
 .text-fg-header { color: var(--fg-header); }
 .text-fg-header-nav { color: var(--fg-header-nav); }
@@ -162,6 +254,7 @@
 .text-fg-section-1 { color: var(--fg-section-1); }
 .text-fg-section-2 { color: var(--fg-section-2); }
 .text-fg-section-3 { color: var(--fg-section-3); }
+.text-fg-body { color: var(--fg-body); }
 .text-fg-section-splitter-1 { color: var(--fg-section-splitter-1); }
 .text-fg-section-splitter-1-heading { color: var(--fg-section-splitter-1-heading); }
 .text-fg-section-splitter-2 { color: var(--fg-section-splitter-2); }
@@ -169,6 +262,16 @@
 .text-fg-section-spliiter-3 { color: var(--fg-section-spliiter-3); }
 .text-fg-section-splitter-3-heading { color: var(--fg-section-splitter-3-heading); }
 .text-fg-footer { color: var(--fg-footer); }
+.bg-button { background-color: var(--bg-button); }
+.text-fg-button { color: var(--fg-button); }
+
+/* Wave Divider Fills */
+.fill-section-splitter-1 { fill: var(--fg-section-splitter-1); }
+.fill-section-splitter-2 { fill: var(--fg-section-splitter-2); }
+.fill-section-spliiter-3 { fill: var(--fg-section-spliiter-3); }
 
 /* Spezieller Overlay Layer im Hero, nutzt Hintergrund-Farbvariable */
 .hero-overlay { background-color: var(--bg-hero); }
+
+/* Wave reversal helper */
+.wave-reversed { transform: scaleX(-1); }
