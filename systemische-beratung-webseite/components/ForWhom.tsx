@@ -27,19 +27,19 @@ const ForWhom: React.FC = () => {
         </p>
         <div className="flex flex-wrap justify-center items-center gap-16">
           <Postcard 
-            imgSrc="https://picsum.photos/400/300?image=45" 
+            imgSrc="images/ausgelaugt.png" 
             altText="Jugendmitarbeiter" 
             quote="Ich fühle mich ausgelaugt!" 
           />
           <Postcard 
-            imgSrc="https://picsum.photos/400/300?image=55" 
-            altText="Pfarrer an leerem Tisch" 
+            imgSrc="images/leer.png" 
+            altText="Pfarrer vor leerer Kirche" 
             quote="Die Kirche schrumpft – was nun?" 
           />
           <Postcard 
-            imgSrc="https://picsum.photos/400/300?image=65" 
-            altText="Lehrkraft in Klasse" 
-            quote="Die Klassenkasse brennt!" 
+            imgSrc="images/brennt.png" 
+            altText="Streit und Chaos im Team" 
+            quote="Die Hütte brennt!" 
           />
         </div>
         <p className="mt-16 font-heading text-2xl text-orange">
