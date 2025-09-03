@@ -56,7 +56,7 @@ export const useTheme = () => {
 export const ThemeSwitcher: React.FC = () => {
   const { theme, cycleTheme } = useTheme();
   const labelMap: Record<ThemeKey, string> = {
-    'default': 'Standard',
+    'default': 'Andere Farbvarianten',
     'erdung-hoffnung': 'Erdung & Hoffnung',
     'klarheit-tiefe': 'Klarheit & Tiefe',
     'waerme-ermutigung': 'Wärme & Ermutigung',
