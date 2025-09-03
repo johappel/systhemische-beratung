@@ -20,17 +20,16 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-hellgruen/95 shadow-lg backdrop-blur-sm' : ' bg-black/40'}`}>
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#hero" className={`font-heading text-xl font-bold transition-colors ${isScrolled ? 'text-dunkelgruen' : 'text-hellgruen'}`}>Systemische Beratung</a>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-sm ${isScrolled ? 'shadow-lg bg-header-nav' : 'bg-header'}`}>
+      <nav className="container mx-auto px-6 py-4 flex justify-between items-center text-fg-header-nav">
+        <a href="#hero" className="font-heading text-xl font-bold transition-colors text-fg-header-logo">Systemische Beratung</a>
         <div className="hidden md:flex space-x-6">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href} className={`font-body text-sm font-semibold hover:text-orange transition-colors ${isScrolled ? 'text-dunkelgruen' : 'text-helllila'}`}>
+            <a key={link.href} href={link.href} className="font-body text-sm font-semibold hover:underline transition-colors text-fg-header-nav">
               {link.text}
             </a>
           ))}
         </div>
-        {/* Mobile menu could be added here */}
       </nav>
     </header>
   );

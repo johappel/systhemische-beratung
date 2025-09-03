@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center hero-bg-matruschka"
+      className="relative h-screen flex items-center justify-center text-center text-fg-hero bg-cover bg-center hero-bg-matruschka bg-hero"
     >
       {/* Background video: plays once for ~6s, then hidden. Kept separate so background image remains. */}
       {showVideo && (
@@ -68,9 +68,9 @@ const Hero: React.FC = () => {
         />
       )}
 
-      <div className="absolute inset-0 bg-dunkelblau opacity-40 z-10"></div>
+  <div className="absolute inset-0 opacity-40 z-10 hero-overlay"></div>
       <div className="relative z-20 p-6">
-        <h1 className="font-heading text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg">
+  <h1 className="font-heading text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg text-fg-hero-heading">
           Menschen & Systeme verstehen.
         </h1>
         <h2 className="font-body text-3xl md:text-5xl mt-4 drop-shadow-md">

@@ -7,6 +7,131 @@
 	background-image: url('/images/matruschka.jpg');
 }
 
+/* --------------------------------------------------
+	 Theme Farb-Variablen
+	 Umschaltbar über <html data-theme="..."> (siehe ThemeProvider)
+	 Default Theme bildet bestehende Farbwahl ab
+-------------------------------------------------- */
+
+:root {
+	--bg-header: rgba(0,0,0,0.4);
+	--bg-header-nav: #bbecbf; /* hellgruen */
+	--bg-hero: #203baf; /* dunkelblau fallback hinter Overlay */
+	--bg-section-1: #e8c6e8; /* helllila */
+	--bg-section-2: #bbecbf; /* hellgruen */
+	--bg-section-3: #203baf; /* dunkelblau */
+	--bg-section-splitter-1: #e8c6e8;
+	--bg-section-splitter-2: #bbecbf;
+	--bg-section-spliiter-3: #203baf; /* Schreibfehler beibehalten laut Vorgabe */
+	--bg-footer: #203baf;
+
+	--fg-header: #bbecbf;
+	--fg-header-nav: #1f594a; /* dunkelgruen */
+	--fg-header-logo: #bbecbf;
+	--fg-hero: #ffffff;
+	--fg-hero-heading: #ffffff;
+	--fg-section-1: #1f594a;
+	--fg-section-2: #1f594a;
+	--fg-section-3: #bbecbf;
+	--fg-section-splitter-1: #203baf;
+	--fg-section-splitter-1-heading: #203baf;
+	--fg-section-splitter-2: #203baf;
+	--fg-section-splitter-2-heading: #203baf;
+	--fg-section-spliiter-3: #bbecbf;
+	--fg-section-splitter-3-heading: #bbecbf;
+	--fg-footer: #e8c6e8;
+}
+
+/* Erdung & Hoffnung */
+[data-theme="erdung-hoffnung"] {
+	--bg-header: #E0E7E9;
+	--bg-header-nav: #D1D8DB;
+	--bg-hero: #F5F5F5;
+	--bg-section-1: #FFFFFF;
+	--bg-section-2: #F0F0EE;
+	--bg-section-3: #FFFFFF;
+	--bg-section-splitter-1: #ADC8C6;
+	--bg-section-splitter-2: #D1D8DB;
+	--bg-section-spliiter-3: #ADC8C6;
+	--bg-footer: #3F5B5B;
+
+	--fg-header: #3F5B5B;
+	--fg-header-nav: #5A7F7F;
+	--fg-header-logo: #3F5B5B;
+	--fg-hero: #3F5B5B;
+	--fg-hero-heading: #2C4242;
+	--fg-section-1: #4A4A4A;
+	--fg-section-2: #4A4A4A;
+	--fg-section-3: #4A4A4A;
+	--fg-section-splitter-1: #FFFFFF;
+	--fg-section-splitter-1-heading: #FFFFFF;
+	--fg-section-splitter-2: #3F5B5B;
+	--fg-section-splitter-2-heading: #3F5B5B;
+	--fg-section-spliiter-3: #FFFFFF;
+	--fg-section-splitter-3-heading: #FFFFFF;
+	--fg-footer: #E0E7E9;
+}
+
+/* Klarheit & Tiefe */
+[data-theme="klarheit-tiefe"] {
+	--bg-header: #EBF2F7;
+	--bg-header-nav: #DDE5EC;
+	--bg-hero: #F7F9FA;
+	--bg-section-1: #FFFFFF;
+	--bg-section-2: #F0F4F7;
+	--bg-section-3: #FFFFFF;
+	--bg-section-splitter-1: #A7C5D9;
+	--bg-section-splitter-2: #DDE5EC;
+	--bg-section-spliiter-3: #A7C5D9;
+	--bg-footer: #2F4F6F;
+
+	--fg-header: #2F4F6F;
+	--fg-header-nav: #4B6E8C;
+	--fg-header-logo: #2F4F6F;
+	--fg-hero: #2F4F6F;
+	--fg-hero-heading: #1F3850;
+	--fg-section-1: #404040;
+	--fg-section-2: #404040;
+	--fg-section-3: #404040;
+	--fg-section-splitter-1: #FFFFFF;
+	--fg-section-splitter-1-heading: #FFFFFF;
+	--fg-section-splitter-2: #2F4F6F;
+	--fg-section-splitter-2-heading: #2F4F6F;
+	--fg-section-spliiter-3: #FFFFFF;
+	--fg-section-splitter-3-heading: #FFFFFF;
+	--fg-footer: #EBF2F7;
+}
+
+/* Wärme & Ermutigung */
+[data-theme="waerme-ermutigung"] {
+	--bg-header: #F4EDE6;
+	--bg-header-nav: #E0D7CD;
+	--bg-hero: #FCFAFA;
+	--bg-section-1: #FFFFFF;
+	--bg-section-2: #F8F5F2;
+	--bg-section-3: #FFFFFF;
+	--bg-section-splitter-1: #B0C4B4;
+	--bg-section-splitter-2: #E0D7CD;
+	--bg-section-spliiter-3: #B0C4B4;
+	--bg-footer: #5A705E;
+
+	--fg-header: #5A705E;
+	--fg-header-nav: #788A7C;
+	--fg-header-logo: #5A705E;
+	--fg-hero: #5A705E;
+	--fg-hero-heading: #425546;
+	--fg-section-1: #505050;
+	--fg-section-2: #505050;
+	--fg-section-3: #505050;
+	--fg-section-splitter-1: #FFFFFF;
+	--fg-section-splitter-1-heading: #FFFFFF;
+	--fg-section-splitter-2: #5A705E;
+	--fg-section-splitter-2-heading: #5A705E;
+	--fg-section-spliiter-3: #FFFFFF;
+	--fg-section-splitter-3-heading: #FFFFFF;
+	--fg-footer: #F4EDE6;
+}
+
 /* Video fade helper used by Hero.tsx */
 .hero-video {
 	opacity: 0;
@@ -16,3 +141,34 @@
 .hero-video--visible {
 	opacity: 1;
 }
+
+/* Utility Klassen für Theme Variablen */
+.bg-header { background-color: var(--bg-header); }
+.bg-header-nav { background-color: var(--bg-header-nav); }
+.bg-hero { background-color: var(--bg-hero); }
+.bg-section-1 { background-color: var(--bg-section-1); }
+.bg-section-2 { background-color: var(--bg-section-2); }
+.bg-section-3 { background-color: var(--bg-section-3); }
+.bg-section-splitter-1 { background-color: var(--bg-section-splitter-1); }
+.bg-section-splitter-2 { background-color: var(--bg-section-splitter-2); }
+.bg-section-spliiter-3 { background-color: var(--bg-section-spliiter-3); }
+.bg-footer { background-color: var(--bg-footer); }
+
+.text-fg-header { color: var(--fg-header); }
+.text-fg-header-nav { color: var(--fg-header-nav); }
+.text-fg-header-logo { color: var(--fg-header-logo); }
+.text-fg-hero { color: var(--fg-hero); }
+.text-fg-hero-heading { color: var(--fg-hero-heading); }
+.text-fg-section-1 { color: var(--fg-section-1); }
+.text-fg-section-2 { color: var(--fg-section-2); }
+.text-fg-section-3 { color: var(--fg-section-3); }
+.text-fg-section-splitter-1 { color: var(--fg-section-splitter-1); }
+.text-fg-section-splitter-1-heading { color: var(--fg-section-splitter-1-heading); }
+.text-fg-section-splitter-2 { color: var(--fg-section-splitter-2); }
+.text-fg-section-splitter-2-heading { color: var(--fg-section-splitter-2-heading); }
+.text-fg-section-spliiter-3 { color: var(--fg-section-spliiter-3); }
+.text-fg-section-splitter-3-heading { color: var(--fg-section-splitter-3-heading); }
+.text-fg-footer { color: var(--fg-footer); }
+
+/* Spezieller Overlay Layer im Hero, nutzt Hintergrund-Farbvariable */
+.hero-overlay { background-color: var(--bg-hero); }

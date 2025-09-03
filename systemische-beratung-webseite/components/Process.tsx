@@ -10,19 +10,19 @@ const Process: React.FC = () => {
   ];
 
   return (
-    <section id="prozess" className="py-20 bg-helllila">
+  <section id="prozess" className="py-20 bg-section-1 text-fg-section-1">
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-heading text-4xl font-bold mb-4">Was machen wir?</h2>
-        <p className="font-body text-xl italic text-orange mb-16">"Nicht gegen, sondern mit dem Wind segeln."</p>
+  <p className="font-body text-xl italic mb-16">"Nicht gegen, sondern mit dem Wind segeln."</p>
         
         <div className="relative">
           {/* Timeline line */}
-          <div className="hidden md:block absolute top-5 left-0 w-full h-0.5 bg-dunkelgruen/30"></div>
+          <div className="hidden md:block absolute top-5 left-0 w-full h-0.5 opacity-30 bg-fg-section-1"></div>
           
           <div className="grid md:grid-cols-4 gap-10">
             {steps.map((step, index) => (
               <div key={index} className="flex flex-col items-center text-center relative">
-                <div className="bg-dunkelgruen p-4 rounded-full text-hellgruen z-10">
+                <div className="p-4 rounded-full z-10 bg-section-2 text-fg-section-2">
                     <ProcessStepIcon step={index + 1} />
                 </div>
                 <h3 className="font-heading text-xl font-bold mt-4 mb-2">{step.title}</h3>

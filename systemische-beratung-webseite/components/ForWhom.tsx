@@ -8,10 +8,10 @@ interface PostcardProps {
 
 const Postcard: React.FC<PostcardProps> = ({ imgSrc, altText, quote }) => {
     return (
-        <div className="bg-white p-4 rounded-md shadow-xl transform rotate-[-3deg] hover:rotate-0 hover:scale-105 transition-transform duration-300 w-full max-w-sm">
+  <div className="p-4 rounded-md shadow-xl transform rotate-[-3deg] hover:rotate-0 hover:scale-105 transition-transform duration-300 w-full max-w-sm bg-section-1 text-fg-section-1">
             <img src={imgSrc} alt={altText} className="w-full h-56 object-cover rounded-sm" />
             <div className="mt-4 border-t pt-4 text-center">
-                <p className="font-body text-lg italic text-dunkelgruen">"{quote}"</p>
+                <p className="font-body text-lg italic">"{quote}"</p>
             </div>
         </div>
     );
@@ -19,7 +19,7 @@ const Postcard: React.FC<PostcardProps> = ({ imgSrc, altText, quote }) => {
 
 const ForWhom: React.FC = () => {
   return (
-    <section id="fuer-wen" className="py-20 bg-hellgruen">
+  <section id="fuer-wen" className="py-20 bg-section-2 text-fg-section-2">
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-heading text-4xl font-bold mb-4">Für wen?</h2>
         <p className="max-w-3xl mx-auto mb-16 text-lg">
@@ -42,7 +42,7 @@ const ForWhom: React.FC = () => {
             quote="Die Hütte brennt!" 
           />
         </div>
-        <p className="mt-16 font-heading text-2xl text-orange">
+  <p className="mt-16 font-heading text-2xl">
           Gemeinsam finden wir die verborgenen Stellschrauben in Ihrem System.
         </p>
       </div>
