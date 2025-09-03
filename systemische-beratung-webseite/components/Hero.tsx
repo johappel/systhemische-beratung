@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
           try { video.pause(); } catch {}
           setShowVideo(false);
         }, 1000);
-      }, 16000);
+      }, 6000);
     };
     setTimeout(startPlayback, 20000);
     
