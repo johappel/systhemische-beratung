@@ -4,7 +4,8 @@
 
 /* Hero background image class used by components/Hero.tsx */
 .hero-bg-matruschka {
-	background-image: url('/images/matruschka.jpg');
+	/* background-image: url('/images/matruschka.jpg'); */
+	background-image:url(dist/images/matruschka_seide.jpeg);
 }
 
 /* --------------------------------------------------
@@ -254,12 +255,12 @@
 .text-fg-header { color: var(--fg-header); }
 .text-fg-header-nav { color: var(--fg-header-nav); }
 .text-fg-header-logo { color: var(--fg-header-logo); }
-.text-fg-hero { color: var(--fg-hero); }
-.text-fg-hero-heading { color: var(--fg-hero-heading); }
+.text-fg-hero { color: var(--fg-hero); text-shadow: 3px 3px 8px #000;}
+.text-fg-hero-heading { color: var(--fg-hero-heading); text-shadow: 2px 2px 8px #000; }
 .text-fg-section-1 { color: var(--fg-section-1); }
 .text-fg-section-2 { color: var(--fg-section-2); }
 .text-fg-section-3 { color: var(--fg-section-3); }
-.text-fg-body { color: var(--fg-body); }
+.text-fg-body { color: var(--fg-body);  }
 .text-fg-section-splitter-1 { color: var(--fg-section-splitter-1); }
 .text-fg-section-splitter-1-heading { color: var(--fg-section-splitter-1-heading); }
 .text-fg-section-splitter-2 { color: var(--fg-section-splitter-2); }
@@ -277,6 +278,18 @@
 
 /* Spezieller Overlay Layer im Hero, nutzt Hintergrund-Farbvariable */
 .hero-overlay { background-color: var(--bg-hero); }
+.hero-heading {
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+.hero-heading p {
+	flex-shrink: 1;
+}
+.hero-heading .ghost {
+	flex-grow: 1;
+}
 
 /* Wave reversal helper */
 .wave-reversed { transform: scaleX(-1); }

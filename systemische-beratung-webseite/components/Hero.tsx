@@ -69,10 +69,11 @@ const Hero: React.FC = () => {
       )}
 
       <div className="absolute inset-0 opacity-40 z-10 hero-overlay"></div>
-      <div className="relative z-20 p-6">
+      <div className="relative z-20 p-6 hero-heading h-screen">
         <h1 className="font-heading text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg text-fg-hero-heading">
           Menschen & Systeme verstehen.
         </h1>
+        <div className="ghost"></div>
         <h2 className="font-body text-3xl md:text-5xl mt-4 drop-shadow-md">
           Lösungen entfalten. Freiheit finden.
         </h2>
