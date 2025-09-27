@@ -24,8 +24,9 @@
 	--bg-section-3: #203baf; /* dunkelblau */
 	--bg-section-splitter-1: #e8c6e8;
 	--bg-section-splitter-2: #bbecbf;
-	--bg-section-spliiter-3: #203baf; /* Schreibfehler beibehalten laut Vorgabe */
+	--bg-section-splitter-3: #203baf; /* Schreibfehler beibehalten laut Vorgabe */
 	--bg-footer: #203baf;
+	--bg-icon: #bbecbf; /* Hintergrund der Icons im Prozess */
 
 	--fg-header: #bbecbf;
 	--fg-header-nav: #c1e7dd; 
@@ -41,7 +42,7 @@
 	--fg-section-splitter-1-heading: #203baf;
 	--fg-section-splitter-2: #203baf;
 	--fg-section-splitter-2-heading: #203baf;
-	--fg-section-spliiter-3: #bbecbf;
+	--fg-section-splitter-3: #bbecbf;
 	--fg-section-splitter-3-heading: #bbecbf;
 	--fg-footer: #e8c6e8;
 
@@ -63,6 +64,7 @@
 	--bg-section-splitter-2: #ffffff;
 	--bg-section-splitter-3: #ffffff;
 	--bg-footer: #3F5B5B;
+	--bg-icon: #e9c2f5; 
 
 	--fg-header: #3F5B5B;
 	--fg-header-nav: #c4e0e0;
@@ -99,6 +101,7 @@
 	--bg-section-splitter-2: #688096;
 	--bg-section-splitter-3: #354753;
 	--bg-footer: #2F4F6F;
+	--bg-icon: #B7CFE3; /* Hintergrund der Icons im Prozess */
 
 	--fg-header: #2F4F6F;
 	--fg-header-nav: #c4e0e0;
@@ -134,6 +137,7 @@
 	--bg-section-splitter-2: #E0D7CD;
 	--bg-section-splitter-3: #B0C4B4;
 	--bg-footer: #5A705E;
+	--bg-icon: #DAF2E3; /* Hintergrund der Icons im Prozess */
 
 	--fg-header: #5A705E;
 	--fg-header-nav: #c4e0e0;
@@ -169,6 +173,7 @@
 	--bg-section-splitter-2: #2E2E2E;
 	--bg-section-splitter-3: #D4B275;
 	--bg-footer: #1A1A1A;
+	--bg-icon: #E9D3FFB8; /* Hintergrund der Icons im Prozess */
 
 	--fg-header: #EAEAEA;
 	--fg-header-nav: #C0C0C0;
@@ -188,6 +193,8 @@
 	--fg-section-splitter-3-heading: #1F1F1F;
 	--fg-footer: #C0C0C0;
 
+	
+
 	--bg-button: #a03333; /* warmes Gold als Akzent */
 	--fg-button: #ffffff;
 }
@@ -205,6 +212,7 @@
 	--bg-section-splitter-2: #2E4256;
 	--bg-section-splitter-3: #76A2B3;
 	--bg-footer: #16222d;
+	--bg-icon: #76A2B3; /* Hintergrund der Icons im Prozess */
 
 	--fg-header: #E8E8E8;
 	--fg-header-nav: #D0D0D0;
@@ -270,11 +278,12 @@
 .text-fg-footer { color: var(--fg-footer); }
 .bg-button { background-color: var(--bg-button); }
 .text-fg-button { color: var(--fg-button); }
+.bg-icon { background-color: var(--bg-icon); }
 
 /* Wave Divider Fills */
 .fill-section-splitter-1 { fill: var(--fg-section-splitter-1); }
 .fill-section-splitter-2 { fill: var(--fg-section-splitter-2); }
-.fill-section-spliiter-3 { fill: var(--fg-section-spliiter-3); }
+.fill-section-splitter-3 { fill: var(--fg-section-splitter-3); }
 
 /* Spezieller Overlay Layer im Hero, nutzt Hintergrund-Farbvariable */
 .hero-overlay { background-color: var(--bg-hero); }
