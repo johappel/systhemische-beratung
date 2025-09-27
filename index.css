@@ -4,8 +4,8 @@
 
 /* Hero background image class used by components/Hero.tsx */
 .hero-bg-matruschka {
-	/* background-image: url('/images/matruschka.jpg'); */
-	background-image:url(dist/images/matruschka_seide.jpeg);
+	/* background-image: url('images/matruschka.jpg'); */
+	background-image:url(distimages/matruschka_seide.jpeg);
 }
 
 /* --------------------------------------------------

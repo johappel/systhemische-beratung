@@ -10,19 +10,19 @@ interface Tool {
 const tools: Tool[] = [
   {
     id: 'genogram',
-    icon: '/images/icons/genogram.png',
+    icon: 'images/icons/genogram.png',
     title: 'Genogramm-Arbeit',
     description: 'Wir visualisieren Beziehungsstrukturen und erkennen Muster, die oft im Verborgenen wirken. Das schafft Klarheit über Herkunft und Zusammenhänge.',
   },
   {
     id: 'circular',
-    icon: '/images/icons/circle.png',
+    icon: 'images/icons/circle.png',
     title: 'Zirkuläres Fragen',
     description: 'Durch gezielte Fragen, die die Perspektiven anderer einbeziehen, öffnen wir den Blick für neue Lösungsräume. Der Perspektivwechsel ist der Schlüssel.',
   },
   {
     id: 'resources',
-    icon: '/images/icons/compass.png',
+    icon: 'images/icons/compass.png',
     title: 'Ressourcenkompass',
     description: 'Wir lenken den Fokus weg vom Problem und hin zu Ihren Stärken, Fähigkeiten und Erfolgen. Ihre Stärken sind unsere verlässlichen Wegweiser.',
   },

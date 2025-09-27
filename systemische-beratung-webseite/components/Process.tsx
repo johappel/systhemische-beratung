@@ -2,10 +2,10 @@ import React from 'react';
 
 const Process: React.FC = () => {
   const steps = [
-    { title: 'Muster erkennen', description: 'Wir schauen genau hin, welche wiederkehrenden Muster Ihre Situation prägen.', cls:"pattern", image: "/images/icons/muster.png" },
-    { title: 'Ressourcen heben', description: 'Wir entdecken und aktivieren Ihre verborgenen Stärken und Fähigkeiten.', cls:"lift", image: "/images/icons/resourcen-heben.png"},
-    { title: 'Lösungen kreieren', description: 'Gemeinsam entwickeln wir passende, umsetzbare und nachhaltige nächste Schritte.', cls:"solution", image: "/images/icons/keypuzzle.png"},
-    { title: 'Freiheit leben', description: 'Sie gewinnen neue Handlungsspielräume und gestalten Ihre Zukunft selbstbestimmt.', cls:"freedom", image: "/images/icons/vogel.png"},
+    { title: 'Muster erkennen', description: 'Wir schauen genau hin, welche wiederkehrenden Muster Ihre Situation prägen.', cls:"pattern", image: "images/icons/muster.png" },
+    { title: 'Ressourcen heben', description: 'Wir entdecken und aktivieren Ihre verborgenen Stärken und Fähigkeiten.', cls:"lift", image: "images/icons/resourcen-heben.png"},
+    { title: 'Lösungen kreieren', description: 'Gemeinsam entwickeln wir passende, umsetzbare und nachhaltige nächste Schritte.', cls:"solution", image: "images/icons/keypuzzle.png"},
+    { title: 'Freiheit leben', description: 'Sie gewinnen neue Handlungsspielräume und gestalten Ihre Zukunft selbstbestimmt.', cls:"freedom", image: "images/icons/vogel.png"},
   ];
 
   return (
