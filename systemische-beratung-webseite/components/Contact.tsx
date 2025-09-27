@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
         </p>
         <button
           className="font-bold py-3 px-8 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg bg-button text-fg-button hover:brightness-110"
-          onClick={() => window.location.href = 'mailto:beispiel@email.de'}
+          onClick={() => window.location.href = 'mailto:anna-maria.plischke@ekkw.de'}
         >
           Lassen Sie uns reden
         </button>

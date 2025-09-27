@@ -23,7 +23,7 @@ const ForWhom: React.FC = () => {
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-heading text-4xl font-bold mb-4">Für wen?</h2>
         <p className="max-w-3xl mx-auto mb-16 text-lg">
-          Menschen im Raum von Kirche, Schule & Jugendarbeit, die systemische Impulse für komplexe Herausforderungen suchen – ohne schnelle Lösungen, dafür mit Raum für Entfaltung.
+          Menschen im Raum von Kirche, Schule, Hochschule & Jugendarbeit, die systemische Impulse für komplexe Herausforderungen suchen – ohne schnelle Lösungen, dafür mit Raum für Entfaltung.
         </p>
         <div className="flex flex-wrap justify-center items-center gap-16">
           <Postcard 

@@ -16,7 +16,7 @@ const About: React.FC = () => {
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-heading text-4xl font-bold mb-4">Über mich</h2>
         <p className="max-w-3xl mx-auto mb-12 text-lg">
-          Als Pfarrerin und systemische Beraterin kenne ich die Herausforderungen von Seelsorge, Bildung und Jugendarbeit. Ich sehe nicht Probleme – sondern verborgene Ressourcen in Systemen. Gemeinsam finden wir Wege, die nachhaltig wirken.
+          Als Pfarrerin und Supervisorin (systemische Beratung) kenne ich die Herausforderungen von Seelsorge, Bildung und Jugendarbeit. Ich sehe nicht Probleme – sondern verborgene Ressourcen in Systemen. Gemeinsam finden wir Wege, die nachhaltig wirken.
         </p>
         <div className="grid md:grid-cols-3 gap-8">
             <Card 
@@ -26,7 +26,7 @@ const About: React.FC = () => {
             />
             <Card 
                 imgSrc="images/schulseelsorgerin.jpeg"
-                title="Schulseelsorge"
+                title="Seelsorge im Studium"
                 quote="Meine Erfahrung: In jedem Konflikt steckt ein verborgenes Geschenk."
             />
             <Card 
@@ -36,7 +36,7 @@ const About: React.FC = () => {
             />
         </div>
   <p className="mt-12 text-sm opacity-80">
-          15+ Jahre Seelsorge | Ausbildung IFS (Integrative Systemische Therapie) | DGSF-zertifiziert
+          12+ Jahre Seelsorge | Ausbildung KI (Kasseler Institut) | SG-zertifiziert
         </p>
       </div>
     </section>
