@@ -20,7 +20,7 @@ const About: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-3 gap-8">
             <Card 
-                imgSrc="images/jugendarbeit.jpeg"
+                imgSrc="images/jugendarbeit.jpg"
                 title="Jugendarbeit"
                 quote="Systemisch denken heißt: Nicht 'warum', sondern 'wozu' fragen."
             />

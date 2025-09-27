@@ -5,7 +5,7 @@
 /* Hero background image class used by components/Hero.tsx */
 .hero-bg-matruschka {
 	/* background-image: url('images/matruschka.jpg'); */
-	background-image:url(images/matruschka_seide.jpeg);
+	background-image:url(../images/matruschka_seide.jpeg);
 }
 
 /* --------------------------------------------------
@@ -310,6 +310,7 @@
   padding: 48px;
   background-color: var(--bg-icon);
   box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+  border: 1px solid #000;
 }
 .tool-button:hover {
   box-shadow: 6px 6px 12px rgba(0,0,0,0.4);
