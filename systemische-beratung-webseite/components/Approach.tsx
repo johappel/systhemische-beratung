@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
-import GenogramIcon from './icons/GenogramIcon';
-import CircularQuestionIcon from './icons/CircularQuestionIcon';
-import ResourceCompassIcon from './icons/ResourceCompassIcon';
 
 interface Tool {
   id: string;
-  icon: React.ReactNode;
+  icon: string;
   title: string;
   description: string;
 }
@@ -13,19 +10,19 @@ interface Tool {
 const tools: Tool[] = [
   {
     id: 'genogram',
-    icon: <GenogramIcon />,
+    icon: '/images/icons/genogram.png',
     title: 'Genogramm-Arbeit',
     description: 'Wir visualisieren Beziehungsstrukturen und erkennen Muster, die oft im Verborgenen wirken. Das schafft Klarheit über Herkunft und Zusammenhänge.',
   },
   {
     id: 'circular',
-    icon: <CircularQuestionIcon />,
+    icon: '/images/icons/circle.png',
     title: 'Zirkuläres Fragen',
     description: 'Durch gezielte Fragen, die die Perspektiven anderer einbeziehen, öffnen wir den Blick für neue Lösungsräume. Der Perspektivwechsel ist der Schlüssel.',
   },
   {
     id: 'resources',
-    icon: <ResourceCompassIcon />,
+    icon: '/images/icons/compass.png',
     title: 'Ressourcenkompass',
     description: 'Wir lenken den Fokus weg vom Problem und hin zu Ihren Stärken, Fähigkeiten und Erfolgen. Ihre Stärken sind unsere verlässlichen Wegweiser.',
   },
@@ -49,10 +46,10 @@ const Approach: React.FC = () => {
               <button
                 key={tool.id}
                 onClick={() => setActiveTool(tool)}
-                className={`p-4 rounded-full transition-colors duration-300 ${activeTool.id === tool.id ? 'bg-fg-section-splitter-1-heading text-fg-section-splitter-1-heading' : 'bg-section-2/20 hover:bg-section-2/40'}`}
+                className={`p-4 rounded-full transition-colors duration-300 tool-button ${activeTool.id === tool.id ? 'bg-fg-section-splitter-1-heading text-fg-section-splitter-1-heading' : 'bg-section-2/20 hover:bg-section-2/40'}`}
                 aria-label={tool.title}
+                style={{ backgroundImage: `url(${tool.icon})` }}
               >
-                {tool.icon}
               </button>
             ))}
           </div>
